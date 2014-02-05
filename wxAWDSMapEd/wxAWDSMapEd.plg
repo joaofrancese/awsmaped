@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: wxAWDSMapEd - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "F:\Users\joao\AppData\Local\Temp\RSP70B3.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "resource" /I "F:\Bibliotecas\wxWidgets-2.8.0/contrib/include" /I "F:\Bibliotecas\wxWidgets-2.8.0/include/msvc" /I "F:\Bibliotecas\wxWidgets-2.8.0/include" /I "F:\Bibliotecas\wxWidgets-2.8.0/lib/vc_lib/msw/wx" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/wxAWDSMapEd.pch" /Yu"precomp.h" /Fo"Release/" /Fd"Release/" /FD /Zm600 /c 
+"F:\Projetos\wxAWDSMapEd\Live\wxAWDSMapEd\Source\FrameMain.cpp"
+]
+Creating command line "cl.exe @F:\Users\joao\AppData\Local\Temp\RSP70B3.tmp" 
+Creating temporary file "F:\Users\joao\AppData\Local\Temp\RSP70B4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comctl32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib wxbase28.lib wxbase28_net.lib wxbase28_xml.lib wxexpat.lib wxjpeg.lib wxmsw28_adv.lib wxmsw28_core.lib wxmsw28_html.lib wxmsw28_media.lib wxmsw28_xrc.lib wxpng.lib wxregex.lib wxtiff.lib wxzlib.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/AWSMapEditor.pdb" /machine:I386 /nodefaultlib:"libcmt" /out:"bin/AWSMapEditor.exe" /libpath:"F:\Bibliotecas\wxWidgets-2.8.0/lib/vc_lib" 
+.\Release\AppMain.obj
+.\Release\DialogInformation.obj
+.\Release\DialogPreferences.obj
+.\Release\DialogSettings.obj
+.\Release\DialogStatus.obj
+.\Release\DrawPanel.obj
+.\Release\Element.obj
+.\Release\FrameMain.obj
+.\Release\Map.obj
+.\Release\Page.obj
+.\Release\precomp.obj
+.\Release\resource.res
+]
+Creating command line "link.exe @F:\Users\joao\AppData\Local\Temp\RSP70B4.tmp"
+<h3>Output Window</h3>
+Compiling...
+FrameMain.cpp
+Linking...
+Creating temporary file "F:\Users\joao\AppData\Local\Temp\RSP7C8C.tmp" with contents
+[
+/nologo /o"Release/wxAWDSMapEd.bsc" 
+.\Release\precomp.sbr
+.\Release\AppMain.sbr
+.\Release\DialogInformation.sbr
+.\Release\DialogPreferences.sbr
+.\Release\DialogSettings.sbr
+.\Release\DialogStatus.sbr
+.\Release\DrawPanel.sbr
+.\Release\Element.sbr
+.\Release\FrameMain.sbr
+.\Release\Map.sbr
+.\Release\Page.sbr]
+Creating command line "bscmake.exe @F:\Users\joao\AppData\Local\Temp\RSP7C8C.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+AWSMapEditor.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

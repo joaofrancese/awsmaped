@@ -1,0 +1,42 @@
+http://www.advancewarsnet.com/forums/index.php?showtopic=29866
+http://www.advancewarsnet.com/designmaps/topic.php?id=203
+
+- Don't let write a map with description > 5k (use global #define for max size); increase that limit
+- Placing a big tile, reducing the map size and increasing
+  it causes the tile to be cut in half.
+- Saving a big tile in the AWDS editor and opening it here
+  causes big tiles to be read as small 1x1 tiles.
+- Saving a map with bridges in the AWS editor as .awd
+  causes all bridges to be set as horizontal.
+- Re-make the spritesheets with correct colors
+- Variable-sized montains in pre-AWDS tilesets.
+- Add Grand Bolt.
+- Investigate why, when opening a pre-AWS map,
+  roads connect to buildings.
+- Fix pipe graphic discovery
+- Save one extra byte per terrain tile, possibly containing:
+  * 1 bit to tell if the following tile has a different sprite set
+  * 7 bits to tell the pipe placement order?
+- Implement a smarter undo/redo?
+- Make Alt+Middle button switch between tabs and middle button switch
+  between two-to-four 'active' tiles
+- Save settings in registry (at least in the windows version)
+- Change dimension saving to 2 bytes each
+- Implement run-length or sliding-window encoding in file saving
+- Save units individually (with position)
+  instead of storing a full-map array
+- Add individual unit HP/ammo/fuel
+- Add AW1/AW2 Snow/Rain, and Veggie tilesets
+- Add CW support
+- Setup should add a link to the Samples folder
+- Fix PT-BR setup title (first page)
+- Check which references in the setup should be to AWSMapEditor,
+  and which ones to the full name
+- Switch the official short name to awsmaped if possible?
+
+
+--------------
+ v1.1 changes
+--------------
+* Dialog OK buttons are now default
+* No longer crashes when opening a file with description larger than 5000 characters.

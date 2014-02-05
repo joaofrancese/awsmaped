@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<anthemion-project version="1.0.0.0" xmlns="http://www.anthemion.co.uk">
+  <header>
+    <long name="name_counter">0</long>
+    <string name="html_path">""</string>
+    <string name="title">""</string>
+    <string name="author">""</string>
+    <string name="description">""</string>
+    <string name="xrc_filename">""</string>
+    <bool name="convert_images_to_xpm">0</bool>
+    <bool name="inline_images">0</bool>
+    <bool name="generate_cpp_for_xrc">0</bool>
+    <long name="working_mode">1</long>
+    <bool name="use_help_text_for_tooltips">1</bool>
+    <bool name="translate_strings">1</bool>
+    <bool name="make_unicode_strings">1</bool>
+    <bool name="extract_strings">0</bool>
+    <string name="user_name">"Joao Pedro S. Francese"</string>
+    <string name="copyright_string">""</string>
+    <string name="resource_prefix">""</string>
+    <bool name="use_two_step_construction">0</bool>
+    <bool name="use_enums">0</bool>
+    <string name="current_platform">"&lt;All platforms&gt;"</string>
+    <string name="target_wx_version">"2.8.4"</string>
+    <string name="cpp_header_comment">"/////////////////////////////////////////////////////////////////////////////
+// Name:        %HEADER-FILENAME%
+// Purpose:     
+// Author:      %AUTHOR%
+// Modified by: 
+// Created:     %DATE%
+// RCS-ID:      
+// Copyright:   %COPYRIGHT%
+// Licence:     
+/////////////////////////////////////////////////////////////////////////////
+
+"</string>
+    <string name="cpp_implementation_comment">"/////////////////////////////////////////////////////////////////////////////
+// Name:        %SOURCE-FILENAME%
+// Purpose:     
+// Author:      %AUTHOR%
+// Modified by: 
+// Created:     %DATE%
+// RCS-ID:      
+// Copyright:   %COPYRIGHT%
+// Licence:     
+/////////////////////////////////////////////////////////////////////////////
+
+"</string>
+    <string name="cpp_symbols_file_comment">"/////////////////////////////////////////////////////////////////////////////
+// Name:        %SYMBOLS-FILENAME%
+// Purpose:     Symbols file
+// Author:      %AUTHOR%
+// Modified by: 
+// Created:     %DATE%
+// RCS-ID:      
+// Copyright:   %COPYRIGHT%
+// Licence:     
+/////////////////////////////////////////////////////////////////////////////
+
+"</string>
+    <string name="cpp_header_preamble">""</string>
+    <string name="cpp_implementation_preamble">"// For compilers that support precompilation, includes &quot;wx/wx.h&quot;.
+#include &quot;wx/wxprec.h&quot;
+
+#ifdef __BORLANDC__
+#pragma hdrstop
+#endif
+
+#ifndef WX_PRECOMP
+#include &quot;wx/wx.h&quot;
+#endif
+
+"</string>
+    <string name="cpp_function_declaration_comment">"	/// %BODY%
+"</string>
+    <string name="cpp_function_implementation_comment">"
+/*!
+ * %BODY%
+ */
+
+"</string>
+    <string name="resource_file_header">"app_resources.h"</string>
+    <string name="resource_file_implementation">"app_resources.cpp"</string>
+    <string name="resource_class_name">"AppResources"</string>
+    <string name="app_file_header">"app.h"</string>
+    <string name="app_file_implementation">"app.cpp"</string>
+    <string name="app_class_name">"Application"</string>
+    <bool name="generate_app_class">0</bool>
+    <string name="external_symbol_filenames">""</string>
+    <string name="configuration">"2.8.4 Static no Media"</string>
+    <string name="source_encoding">"iso-8859-1"</string>
+    <string name="xrc_encoding">"utf-8"</string>
+    <string name="project_encoding">"utf-8"</string>
+    <string name="resource_archive">""</string>
+    <long name="text_file_type">0</long>
+    <bool name="use_tabs">0</bool>
+    <long name="indent_size">4</long>
+    <string name="whitespace_after_return_type">" "</string>
+    <string name="resource_xrc_cpp">""</string>
+    <bool name="use_resource_archive">0</bool>
+    <bool name="use_generated_xrc_cpp">0</bool>
+    <bool name="always_generate_xrc">1</bool>
+    <bool name="archive_xrc_files">1</bool>
+    <bool name="archive_image_files">1</bool>
+    <bool name="archive_all_image_files">0</bool>
+    <bool name="xrc_retain_relative_paths">1</bool>
+  </header>
+  <data>
+    <document>
+      <string name="title">""</string>
+      <string name="type">"data-document"</string>
+      <string name="filename">""</string>
+      <string name="icon-name">""</string>
+      <long name="is-transient">0</long>
+      <long name="owns-file">1</long>
+      <long name="title-mode">0</long>
+      <long name="locked">0</long>
+      <document>
+        <string name="title">"Configurations"</string>
+        <string name="type">"config-data-document"</string>
+        <string name="filename">""</string>
+        <string name="icon-name">""</string>
+        <long name="is-transient">0</long>
+        <long name="owns-file">1</long>
+        <long name="title-mode">0</long>
+        <long name="locked">0</long>
+        <string name="template-name">""</string>
+        <bool name="dirty">1</bool>
+        <string name="Compiler name">""</string>
+        <string name="Build mode">"Debug"</string>
+        <string name="Unicode mode">"ANSI"</string>
+        <string name="Shared mode">"Static"</string>
+        <string name="Modularity">"Modular"</string>
+        <string name="GUI mode">"GUI"</string>
+        <string name="Toolkit">"wxGTK+2"</string>
+        <string name="Runtime linking">"Dynamic"</string>
+        <string name="Use exceptions">"Yes"</string>
+        <string name="Use ODBC">"No"</string>
+        <string name="Use OpenGL">"No"</string>
+        <string name="wxWidgets version">"%WXVERSION%"</string>
+        <string name="Executable name">"%EXECUTABLE%"</string>
+        <string name="Program arguments">""</string>
+        <string name="Working path">"%AUTO%"</string>
+        <string name="Output path">"%AUTO%"</string>
+        <string name="Objects path">"%AUTO%"</string>
+        <string name="Compiler location">"%AUTO%"</string>
+        <string name="wxWidgets location">"%AUTO%"</string>
+        <string name="C++ command">"%AUTO%"</string>
+        <string name="Resource compiler">"%AUTO%"</string>
+        <string name="Make command">"%AUTO%"</string>
+        <string name="Project makefile">"%AUTO%"</string>
+        <string name="wxWidgets makefile">"%AUTO%"</string>
+        <string name="Compiler bin path">"%AUTO%"</string>
+        <string name="Compiler include path">"%AUTO%"</string>
+        <string name="Compiler lib path">"%AUTO%"</string>
+        <string name="Preprocessor flags">"%AUTO%"</string>
+        <string name="Optimizations">"%AUTO%"</string>
+        <string name="Warnings">"%AUTO%"</string>
+        <string name="Debug flags">"%AUTO%"</string>
+        <string name="Libraries">"%AUTO%"</string>
+        <string name="Library path">"%AUTO%"</string>
+        <string name="Linker flags">"%AUTO%"</string>
+        <string name="Include path">"%AUTO%"</string>
+        <string name="Resource flags">"%AUTO%"</string>
+        <string name="Resource path">"%AUTO%"</string>
+        <string name="wxWidgets build path">"%AUTO%"</string>
+        <string name="wxWidgets build command">"%AUTO%"</string>
+        <string name="wxWidgets clean command">"%AUTO%"</string>
+        <string name="PATH variable">"%AUTO%"</string>
+        <document>
+          <string name="title">"GCC Release"</string>
+          <string name="type">"gcc-config-data-document"</string>
+          <string name="filename">""</string>
+          <string name="icon-name">""</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">1</long>
+          <long name="title-mode">0</long>
+          <long name="locked">0</long>
+          <string name="template-name">"GCC"</string>
+          <bool name="dirty">0</bool>
+          <string name="Compiler name">"GCC"</string>
+          <string name="Build mode">"Release"</string>
+          <string name="Unicode mode">"ANSI"</string>
+          <string name="Shared mode">"Static"</string>
+          <string name="Modularity">"Modular"</string>
+          <string name="GUI mode">"GUI"</string>
+          <string name="Toolkit">"wxGTK+2"</string>
+          <string name="Runtime linking">"Static"</string>
+          <string name="Use exceptions">"Yes"</string>
+          <string name="Use ODBC">"No"</string>
+          <string name="Use OpenGL">"No"</string>
+          <string name="Use wx-config">"Yes"</string>
+          <string name="Use installed wxWidgets">"Yes"</string>
+          <string name="Enable universal binaries">"No"</string>
+          <string name="wxWidgets version">"%WXVERSION%"</string>
+          <string name="Executable name">"%EXECUTABLE%"</string>
+          <string name="Program arguments">""</string>
+          <string name="Working path">"%AUTO%"</string>
+          <string name="Output path">"%AUTO%"</string>
+          <string name="Objects path">"%AUTO%"</string>
+          <string name="Compiler location">"%AUTO%"</string>
+          <string name="wxWidgets location">"%AUTO%"</string>
+          <string name="C++ command">"%AUTO%"</string>
+          <string name="Resource compiler">"%AUTO%"</string>
+          <string name="Make command">"%AUTO%"</string>
+          <string name="Project makefile">"%AUTO%"</string>
+          <string name="wxWidgets makefile">"%AUTO%"</string>
+          <string name="Compiler bin path">"%AUTO%"</string>
+          <string name="Compiler include path">"%AUTO%"</string>
+          <string name="Compiler lib path">"%AUTO%"</string>
+          <string name="Preprocessor flags">"%AUTO%"</string>
+          <string name="Optimizations">"%AUTO%"</string>
+          <string name="Warnings">"%AUTO%"</string>
+          <string name="Debug flags">"%AUTO%"</string>
+          <string name="Libraries">"`wx-config --unicode=no --libs std media`"</string>
+          <string name="Library path">"%AUTO%"</string>
+          <string name="Linker flags">"%AUTO%"</string>
+          <string name="Include path">"%AUTO%"</string>
+          <string name="Resource flags">"%AUTO%"</string>
+          <string name="Resource path">"%AUTO%"</string>
+          <string name="wxWidgets build path">"%AUTO%"</string>
+          <string name="wxWidgets build command">"%AUTO%"</string>
+          <string name="wxWidgets clean command">"%AUTO%"</string>
+          <string name="PATH variable">"%AUTO%"</string>
+          <string name="Command for wx-config">"wx-config --unicode=no"</string>
+        </document>
+        <document>
+          <string name="title">"2.8.4 Static no Media"</string>
+          <string name="type">"gcc-config-data-document"</string>
+          <string name="filename">""</string>
+          <string name="icon-name">""</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">1</long>
+          <long name="title-mode">0</long>
+          <long name="locked">0</long>
+          <string name="template-name">"GCC"</string>
+          <bool name="dirty">0</bool>
+          <string name="Compiler name">"GCC"</string>
+          <string name="Build mode">"Release"</string>
+          <string name="Unicode mode">"ANSI"</string>
+          <string name="Shared mode">"Static"</string>
+          <string name="Modularity">"Modular"</string>
+          <string name="GUI mode">"GUI"</string>
+          <string name="Toolkit">"wxGTK+2"</string>
+          <string name="Runtime linking">"Static"</string>
+          <string name="Use exceptions">"Yes"</string>
+          <string name="Use ODBC">"No"</string>
+          <string name="Use OpenGL">"No"</string>
+          <string name="Use wx-config">"Yes"</string>
+          <string name="Use installed wxWidgets">"No"</string>
+          <string name="Enable universal binaries">"No"</string>
+          <string name="wxWidgets version">"%WXVERSION%"</string>
+          <string name="Executable name">"%EXECUTABLE%"</string>
+          <string name="Program arguments">""</string>
+          <string name="Working path">"%AUTO%"</string>
+          <string name="Output path">"%AUTO%"</string>
+          <string name="Objects path">"%AUTO%"</string>
+          <string name="Compiler location">"%AUTO%"</string>
+          <string name="wxWidgets location">"%AUTO%"</string>
+          <string name="C++ command">"%AUTO%"</string>
+          <string name="Resource compiler">"%AUTO%"</string>
+          <string name="Make command">"%AUTO%"</string>
+          <string name="Project makefile">"%AUTO%"</string>
+          <string name="wxWidgets makefile">"%AUTO%"</string>
+          <string name="Compiler bin path">"%AUTO%"</string>
+          <string name="Compiler include path">"%AUTO%"</string>
+          <string name="Compiler lib path">"%AUTO%"</string>
+          <string name="Preprocessor flags">"%AUTO%"</string>
+          <string name="Optimizations">"%AUTO%"</string>
+          <string name="Warnings">"%AUTO%"</string>
+          <string name="Debug flags">"%AUTO%"</string>
+          <string name="Libraries">"%AUTO%"</string>
+          <string name="Library path">"%AUTO%"</string>
+          <string name="Linker flags">"%AUTO%"</string>
+          <string name="Include path">"%AUTO%"</string>
+          <string name="Resource flags">"%AUTO%"</string>
+          <string name="Resource path">"%AUTO%"</string>
+          <string name="wxWidgets build path">"$(WXWIN)"</string>
+          <string name="wxWidgets build command">"%AUTO%"</string>
+          <string name="wxWidgets clean command">"%AUTO%"</string>
+          <string name="PATH variable">"%AUTO%"</string>
+          <string name="Command for wx-config">"%AUTO%"</string>
+        </document>
+      </document>
+    </document>
+  </data>
+
+  <documents>
+    <document>
+      <string name="title">"Projects"</string>
+      <string name="type">"root-document"</string>
+      <string name="filename">""</string>
+      <string name="icon-name">"project"</string>
+      <long name="is-transient">1</long>
+      <long name="owns-file">1</long>
+      <long name="title-mode">0</long>
+      <long name="locked">1</long>
+      <document>
+        <string name="title">"Windows"</string>
+        <string name="type">"html-document"</string>
+        <string name="filename">""</string>
+        <string name="icon-name">"dialogsfolder"</string>
+        <long name="is-transient">1</long>
+        <long name="owns-file">1</long>
+        <long name="title-mode">0</long>
+        <long name="locked">1</long>
+      </document>
+      <document>
+        <string name="title">"Sources"</string>
+        <string name="type">"html-document"</string>
+        <string name="filename">""</string>
+        <string name="icon-name">"sourcesfolder"</string>
+        <long name="is-transient">1</long>
+        <long name="owns-file">1</long>
+        <long name="title-mode">0</long>
+        <long name="locked">1</long>
+        <document>
+          <string name="title">"AWSMapEditor.rc"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"AWSMapEditor.rc"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"AppMain.cpp"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/AppMain.cpp"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"AppMain.h"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/AppMain.h"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"DialogInformation.cpp"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/DialogInformation.cpp"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"DialogInformation.h"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/DialogInformation.h"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"DialogPreferences.cpp"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/DialogPreferences.cpp"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"DialogPreferences.h"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/DialogPreferences.h"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"DialogSettings.cpp"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/DialogSettings.cpp"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"DialogSettings.h"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/DialogSettings.h"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"DialogStatus.cpp"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/DialogStatus.cpp"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"DialogStatus.h"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/DialogStatus.h"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"DrawPanel.cpp"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/DrawPanel.cpp"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"DrawPanel.h"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/DrawPanel.h"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"DrawPanel_spritesheets.h"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/DrawPanel_spritesheets.h"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"Element.cpp"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/Element.cpp"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"Element.h"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/Element.h"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"Element_Defaults.h"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/Element_Defaults.h"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"FrameMain.cpp"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/FrameMain.cpp"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"FrameMain.h"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/FrameMain.h"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"Makefile"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Makefile"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"Map.cpp"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/Map.cpp"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"Map.h"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/Map.h"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"Page.cpp"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/Page.cpp"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"Page.h"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/Page.h"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"precomp.cpp"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/precomp.cpp"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+        <document>
+          <string name="title">"precomp.h"</string>
+          <string name="type">"source-editor-document"</string>
+          <string name="filename">"Source/precomp.h"</string>
+          <string name="icon-name">"source-editor"</string>
+          <long name="is-transient">0</long>
+          <long name="owns-file">0</long>
+          <long name="title-mode">1</long>
+          <long name="locked">0</long>
+          <string name="created">"18/8/2007"</string>
+          <string name="language">""</string>
+        </document>
+      </document>
+      <document>
+        <string name="title">"Images"</string>
+        <string name="type">"html-document"</string>
+        <string name="filename">""</string>
+        <string name="icon-name">"bitmapsfolder"</string>
+        <long name="is-transient">1</long>
+        <long name="owns-file">1</long>
+        <long name="title-mode">0</long>
+        <long name="locked">1</long>
+      </document>
+    </document>
+  </documents>
+
+</anthemion-project>

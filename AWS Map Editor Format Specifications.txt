@@ -1,0 +1,72 @@
+AW Map Editor file format specifications.
+ - by João Pedro S. Francese (Roma_emu) [joaofrancese@gmail.com]
+ - last updated on February 04, 2008
+
+Please inform me before using this file format in your project - but please DO use it,
+if it involves AW maps! A standard file format is good for everyone, because it makes sure
+the files are compatible between different programs. If you use it, please credit Kamek
+(the file format's creator) and me (the map editor's creator) somewhere. :)
+Personally I would prefer if you didn't try to make another editor...
+But it's not really up to me, is it?
+
+Note: The latest editor, as of today, is the AW Series Map Editor version 1.0.
+Version 2.0 is planned, which will include Advance Wars: Days of Ruin units and terrains.
+I also plan to introduce some form of compression (such as run-length encoding) and/or a change
+from unit 2D arrays to a list of units, so the file size is reduced. The file extension will be
+kept as .aws, so make sure your program checks the header for the appropriate version before
+trying to parse the file, instead of checking just the extension.
+
+The latest editor version can always be found at https://github.com/joaofrancese/awsmaped
+
+-----------------
+
+.awm/.aw2/.awd/.aws(v1) format specifications:
+
+First, the header, with 10 bytes. It consists of the map editor version (6 bytes),
+then the format version number (3 bytes), then a blank byte. Map editor version:
+'AWMap ' (AW1 Map Editor), 'AW2Map' (AW2 Map Editor), 'AWDMap' (AWDS Map Editor),
+'AWSMap' (AWS Map Editor). The only format version number used for these is '001'.
+
+Next are (in .aws files only) one byte for the map height and one for the width.
+(This limits the width and height to 255x255).
+
+Following, in .aws and .awd files, is a byte containing the tileset number.
+For .awd maps, add 1 to the numbers below.
+0 = Normal (AWDS)
+1 = Snow (AWDS)
+2 = Desert
+3 = Wasteland
+4 = AW1
+5 = AW2
+
+Then the terrain tiles - from top to bottom, left to right. Two bytes each tile.
+(Terrain tiles may be from the Terrain kind, the Base kind or the Extra kind.)
+After the terrain tiles, the unit tiles, organized the same way.
+
+Here's how to find the meaning of the values for each tile:
+(numbers below are in decimal notation)
+
+
+In the spritesheets (http://www.advancewarsnet.com/downloads/awsmaped_v1_spritesheets.zip),
+a tile's value is given by the X and Y position of the picture in the spritesheet
+(origin is 0, 0 in the top-left corner). In the Base spritesheet, a tile's height is 32px;
+in the others, it is 16px. The formulas for finding the values are below.
+
+Terrain tab items: [0000 to 0299]  value = 000 + x + (y * 30)
+                                   x = (value - 000) rem 30   y = (value - 000) div 30
+
+Base tab items:    [0300 to 0499]  value = 300 + x + (y * 10)
+                                   x = (value - 300) rem 10   y = (value - 300) div 10
+
+Extra tab items:   [0900 to 1299]  value = 900 + x + (y * 20)
+                                   x = (value - 900) rem 20   y = (value - 900) div 20
+
+Unit tab items:    [0500 to 0899]  value = 000 + x + (y * 20)
+                                   x = (value - 500) rem 20   y = (value - 500) div 20
+
+[rem = remainder of the division; div = integer part of the division result]
+
+
+After the units, the length of the Name field, then the map Name,
+then the length of the Author field, then the map's Author,
+then the length of the Description field, then the Description.
